@@ -1,1 +1,8 @@
 
+CREATE TABLE evento (
+    id_evento INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    descricao TEXT,
+    area VARCHAR(100)
+);
+
