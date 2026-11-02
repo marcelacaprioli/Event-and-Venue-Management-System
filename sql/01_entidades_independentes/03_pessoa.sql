@@ -1,1 +1,8 @@
 
+CREATE TABLE pessoa (
+    id_pessoa INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    instituicao VARCHAR(150)
+);
+  
